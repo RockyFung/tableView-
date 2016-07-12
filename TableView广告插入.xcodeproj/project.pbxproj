@@ -15,6 +15,16 @@
 		5C5327AF1D34952C00816018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5327AD1D34952C00816018 /* LaunchScreen.storyboard */; };
 		5C5327BA1D34952C00816018 /* TableView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327B91D34952C00816018 /* TableView____Tests.m */; };
 		5C5327C51D34952C00816018 /* TableView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327C41D34952C00816018 /* TableView____UITests.m */; };
+		5C5327E41D34954900816018 /* IMYAOPTableViewUtils+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327D61D34954900816018 /* IMYAOPTableViewUtils+DataSource.m */; };
+		5C5327E51D34954900816018 /* IMYAOPTableViewUtils+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327D81D34954900816018 /* IMYAOPTableViewUtils+Delegate.m */; };
+		5C5327E61D34954900816018 /* UITableView+IMYAOPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327DB1D34954900816018 /* UITableView+IMYAOPTableView.m */; };
+		5C5327E71D34954900816018 /* IMYAOPTableViewInsertBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327DE1D34954900816018 /* IMYAOPTableViewInsertBody.m */; };
+		5C5327E81D34954900816018 /* IMYAOPTableViewUtils+Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327E01D34954900816018 /* IMYAOPTableViewUtils+Proxy.m */; };
+		5C5327E91D34954900816018 /* IMYAOPTableViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327E21D34954900816018 /* IMYAOPTableViewUtils.m */; };
+		5C5327EB1D3497FD00816018 /* Twitter@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C5327EA1D3497FD00816018 /* Twitter@3x.jpg */; };
+		5C5327ED1D34980300816018 /* Weibo@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C5327EC1D34980300816018 /* Weibo@3x.jpg */; };
+		5C5327F01D34995C00816018 /* InsertAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5327EF1D34995C00816018 /* InsertAD.m */; };
+		5C5327F21D349FED00816018 /* aop_ad_image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C5327F11D349FED00816018 /* aop_ad_image.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		5C5327C01D34952C00816018 /* TableView广告插入UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView广告插入UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5327C41D34952C00816018 /* TableView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableView____UITests.m"; sourceTree = "<group>"; };
 		5C5327C61D34952C00816018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5327D31D34954900816018 /* IMYAOPTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYAOPTableView.h; sourceTree = "<group>"; };
+		5C5327D51D34954900816018 /* IMYAOPTableViewUtils+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMYAOPTableViewUtils+DataSource.h"; sourceTree = "<group>"; };
+		5C5327D61D34954900816018 /* IMYAOPTableViewUtils+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IMYAOPTableViewUtils+DataSource.m"; sourceTree = "<group>"; };
+		5C5327D71D34954900816018 /* IMYAOPTableViewUtils+Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMYAOPTableViewUtils+Delegate.h"; sourceTree = "<group>"; };
+		5C5327D81D34954900816018 /* IMYAOPTableViewUtils+Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IMYAOPTableViewUtils+Delegate.m"; sourceTree = "<group>"; };
+		5C5327D91D34954900816018 /* IMYAOPTableViewUtils+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMYAOPTableViewUtils+Private.h"; sourceTree = "<group>"; };
+		5C5327DA1D34954900816018 /* UITableView+IMYAOPTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+IMYAOPTableView.h"; sourceTree = "<group>"; };
+		5C5327DB1D34954900816018 /* UITableView+IMYAOPTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+IMYAOPTableView.m"; sourceTree = "<group>"; };
+		5C5327DD1D34954900816018 /* IMYAOPTableViewInsertBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYAOPTableViewInsertBody.h; sourceTree = "<group>"; };
+		5C5327DE1D34954900816018 /* IMYAOPTableViewInsertBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYAOPTableViewInsertBody.m; sourceTree = "<group>"; };
+		5C5327DF1D34954900816018 /* IMYAOPTableViewUtils+Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMYAOPTableViewUtils+Proxy.h"; sourceTree = "<group>"; };
+		5C5327E01D34954900816018 /* IMYAOPTableViewUtils+Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IMYAOPTableViewUtils+Proxy.m"; sourceTree = "<group>"; };
+		5C5327E11D34954900816018 /* IMYAOPTableViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYAOPTableViewUtils.h; sourceTree = "<group>"; };
+		5C5327E21D34954900816018 /* IMYAOPTableViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYAOPTableViewUtils.m; sourceTree = "<group>"; };
+		5C5327E31D34954900816018 /* IMYAOPTableViewUtilsDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYAOPTableViewUtilsDefine.h; sourceTree = "<group>"; };
+		5C5327EA1D3497FD00816018 /* Twitter@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Twitter@3x.jpg"; sourceTree = "<group>"; };
+		5C5327EC1D34980300816018 /* Weibo@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Weibo@3x.jpg"; sourceTree = "<group>"; };
+		5C5327EE1D34995C00816018 /* InsertAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertAD.h; sourceTree = "<group>"; };
+		5C5327EF1D34995C00816018 /* InsertAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertAD.m; sourceTree = "<group>"; };
+		5C5327F11D349FED00816018 /* aop_ad_image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aop_ad_image.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				5C53279E1D34952C00816018 /* TableView广告插入 */,
+				5C5327D21D34954900816018 /* Classes */,
 				5C5327B81D34952C00816018 /* TableView广告插入Tests */,
 				5C5327C31D34952C00816018 /* TableView广告插入UITests */,
 				5C53279D1D34952C00816018 /* Products */,
@@ -101,8 +132,13 @@
 		5C53279E1D34952C00816018 /* TableView广告插入 */ = {
 			isa = PBXGroup;
 			children = (
+				5C5327EA1D3497FD00816018 /* Twitter@3x.jpg */,
+				5C5327EC1D34980300816018 /* Weibo@3x.jpg */,
+				5C5327F11D349FED00816018 /* aop_ad_image.jpeg */,
 				5C5327A21D34952C00816018 /* AppDelegate.h */,
 				5C5327A31D34952C00816018 /* AppDelegate.m */,
+				5C5327EE1D34995C00816018 /* InsertAD.h */,
+				5C5327EF1D34995C00816018 /* InsertAD.m */,
 				5C5327A51D34952C00816018 /* ViewController.h */,
 				5C5327A61D34952C00816018 /* ViewController.m */,
 				5C5327A81D34952C00816018 /* Main.storyboard */,
@@ -138,6 +174,44 @@
 				5C5327C61D34952C00816018 /* Info.plist */,
 			);
 			path = "TableView广告插入UITests";
+			sourceTree = "<group>";
+		};
+		5C5327D21D34954900816018 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C5327D31D34954900816018 /* IMYAOPTableView.h */,
+				5C5327D41D34954900816018 /* Private */,
+				5C5327DC1D34954900816018 /* TableUtils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5C5327D41D34954900816018 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				5C5327D51D34954900816018 /* IMYAOPTableViewUtils+DataSource.h */,
+				5C5327D61D34954900816018 /* IMYAOPTableViewUtils+DataSource.m */,
+				5C5327D71D34954900816018 /* IMYAOPTableViewUtils+Delegate.h */,
+				5C5327D81D34954900816018 /* IMYAOPTableViewUtils+Delegate.m */,
+				5C5327D91D34954900816018 /* IMYAOPTableViewUtils+Private.h */,
+				5C5327DA1D34954900816018 /* UITableView+IMYAOPTableView.h */,
+				5C5327DB1D34954900816018 /* UITableView+IMYAOPTableView.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		5C5327DC1D34954900816018 /* TableUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5C5327DD1D34954900816018 /* IMYAOPTableViewInsertBody.h */,
+				5C5327DE1D34954900816018 /* IMYAOPTableViewInsertBody.m */,
+				5C5327DF1D34954900816018 /* IMYAOPTableViewUtils+Proxy.h */,
+				5C5327E01D34954900816018 /* IMYAOPTableViewUtils+Proxy.m */,
+				5C5327E11D34954900816018 /* IMYAOPTableViewUtils.h */,
+				5C5327E21D34954900816018 /* IMYAOPTableViewUtils.m */,
+				5C5327E31D34954900816018 /* IMYAOPTableViewUtilsDefine.h */,
+			);
+			path = TableUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +318,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5327AF1D34952C00816018 /* LaunchScreen.storyboard in Resources */,
+				5C5327F21D349FED00816018 /* aop_ad_image.jpeg in Resources */,
 				5C5327AC1D34952C00816018 /* Assets.xcassets in Resources */,
+				5C5327ED1D34980300816018 /* Weibo@3x.jpg in Resources */,
 				5C5327AA1D34952C00816018 /* Main.storyboard in Resources */,
+				5C5327EB1D3497FD00816018 /* Twitter@3x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5327E51D34954900816018 /* IMYAOPTableViewUtils+Delegate.m in Sources */,
 				5C5327A71D34952C00816018 /* ViewController.m in Sources */,
+				5C5327E91D34954900816018 /* IMYAOPTableViewUtils.m in Sources */,
+				5C5327E61D34954900816018 /* UITableView+IMYAOPTableView.m in Sources */,
 				5C5327A41D34952C00816018 /* AppDelegate.m in Sources */,
 				5C5327A11D34952C00816018 /* main.m in Sources */,
+				5C5327E71D34954900816018 /* IMYAOPTableViewInsertBody.m in Sources */,
+				5C5327F01D34995C00816018 /* InsertAD.m in Sources */,
+				5C5327E41D34954900816018 /* IMYAOPTableViewUtils+DataSource.m in Sources */,
+				5C5327E81D34954900816018 /* IMYAOPTableViewUtils+Proxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
